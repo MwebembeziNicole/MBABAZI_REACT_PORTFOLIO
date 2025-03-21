@@ -7,7 +7,7 @@ import './App.css';  // Login component
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const navigate = useNavigate();
+ 
 
   useEffect(() => {
     document.body.classList.toggle("dark-mode", darkMode);
